@@ -1,0 +1,287 @@
+INFO 2018-01-25 17:03:14,273 [36mPOST /application/create[0m
+DEBUG 2018-01-25 17:03:14,275 [36m{'HTTP_CONNECTION': 'keep-alive', 'HTTP_POSTMAN_TOKEN': 'c3fb605a-28f5-46af-8c8b-1527a8f6ecdf', 'HTTP_HOST': '127.0.0.1:8000', 'HTTP_COOKIE': 'csrftoken=YrNrK4PRyCEMDOru71VQ5MUt83QCgNd3eafumP8dtVp2GHnIOnjbnVQHOEF90pAx', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_CACHE_CONTROL': 'no-cache', 'HTTP_USER_AGENT': 'PostmanRuntime/7.1.1', 'HTTP_ACCEPT': '*/*'}[0m
+DEBUG 2018-01-25 17:03:14,275 [36m----------------------------060541192291238979619067[0m
+DEBUG 2018-01-25 17:03:14,275 [36m[0m
+DEBUG 2018-01-25 17:03:14,275 [36mContent-Disposition: form-data; name="name"[0m
+DEBUG 2018-01-25 17:03:14,275 [36m[0m
+DEBUG 2018-01-25 17:03:14,275 [36mRaja Prasanna[0m
+DEBUG 2018-01-25 17:03:14,275 [36m----------------------------060541192291238979619067[0m
+DEBUG 2018-01-25 17:03:14,275 [36m[0m
+DEBUG 2018-01-25 17:03:14,275 [36mContent-Disposition: form-data; name="dob"[0m
+DEBUG 2018-01-25 17:03:14,275 [36m[0m
+DEBUG 2018-01-25 17:03:14,276 [36m1989-05-18[0m
+DEBUG 2018-01-25 17:03:14,276 [36m----------------------------060541192291238979619067[0m
+DEBUG 2018-01-25 17:03:14,276 [36m[0m
+DEBUG 2018-01-25 17:03:14,276 [36mContent-Disposition: form-data; name="email"[0m
+DEBUG 2018-01-25 17:03:14,276 [36m[0m
+DEBUG 2018-01-25 17:03:14,276 [36mbrajaprasanna@gmail.com[0m
+DEBUG 2018-01-25 17:03:14,276 [36m----------------------------060541192291238979619067[0m
+DEBUG 2018-01-25 17:03:14,276 [36m[0m
+DEBUG 2018-01-25 17:03:14,276 [36mContent-Disposition: form-data; name="phone_no"[0m
+DEBUG 2018-01-25 17:03:14,276 [36m[0m
+DEBUG 2018-01-25 17:03:14,276 [36m8056712222[0m
+DEBUG 2018-01-25 17:03:14,276 [36m----------------------------060541192291238979619067[0m
+DEBUG 2018-01-25 17:03:14,276 [36m[0m
+DEBUG 2018-01-25 17:03:14,276 [36mContent-Disposition: form-data; name="skills"[0m
+DEBUG 2018-01-25 17:03:14,276 [36m[0m
+DEBUG 2018-01-25 17:03:14,277 [36mPython, Django[0m
+DEBUG 2018-01-25 17:03:14,277 [36m----------------------------060541192291238979619067[0m
+DEBUG 2018-01-25 17:03:14,277 [36m[0m
+DEBUG 2018-01-25 17:03:14,277 [36mContent-Disposition: form-data; name="resume"; filename="test_cv.rtf"[0m
+DEBUG 2018-01-25 17:03:14,277 [36mContent-Type: application/rtf[0m
+DEBUG 2018-01-25 17:03:14,277 [36m[0m
+DEBUG 2018-01-25 17:03:14,277 [36m(binary data)[0m
+DEBUG 2018-01-25 17:03:14,277 [36m----------------------------060541192291238979619067[0m
+DEBUG 2018-01-25 17:03:14,277 [36m--[0m
+DEBUG 2018-01-25 17:03:14,277 [36m[0m
+INFO 2018-01-25 17:03:14,306 [36mPOST /application/create - 201[0m
+DEBUG 2018-01-25 17:03:14,306 [36m{'vary': ('Vary', 'Accept'), 'content-type': ('Content-Type', 'application/json'), 'allow': ('Allow', 'POST, OPTIONS')}[0m
+DEBUG 2018-01-25 17:03:14,307 [36mb'{"id":1,"phone_code":"+91","resume":"test_cv.rtf","status":"Applied","dob":"1989-05-18","phone_no":"8056712222","status_message":"Success","status_changed_by":null,"name":"Raja Prasanna","skills":"Python, Django","status_changed_at":null,"app_ref_no":"C1775E","email":"brajaprasanna@gmail.com"}'[0m
+INFO 2018-01-25 17:08:23,966 [36mPOST /application/create[0m
+DEBUG 2018-01-25 17:08:23,969 [36m{'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_COOKIE': 'csrftoken=YrNrK4PRyCEMDOru71VQ5MUt83QCgNd3eafumP8dtVp2GHnIOnjbnVQHOEF90pAx', 'HTTP_USER_AGENT': 'PostmanRuntime/7.1.1', 'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_ACCEPT': '*/*', 'HTTP_CACHE_CONTROL': 'no-cache', 'HTTP_POSTMAN_TOKEN': '9d8dabda-e4dd-452d-87d5-718c5e51f92f'}[0m
+DEBUG 2018-01-25 17:08:23,969 [36m----------------------------334870942518501647590519[0m
+DEBUG 2018-01-25 17:08:23,969 [36m[0m
+DEBUG 2018-01-25 17:08:23,970 [36mContent-Disposition: form-data; name="name"[0m
+DEBUG 2018-01-25 17:08:23,970 [36m[0m
+DEBUG 2018-01-25 17:08:23,970 [36mRaja Prasanna[0m
+DEBUG 2018-01-25 17:08:23,970 [36m----------------------------334870942518501647590519[0m
+DEBUG 2018-01-25 17:08:23,971 [36m[0m
+DEBUG 2018-01-25 17:08:23,971 [36mContent-Disposition: form-data; name="dob"[0m
+DEBUG 2018-01-25 17:08:23,971 [36m[0m
+DEBUG 2018-01-25 17:08:23,971 [36m1989-05-18[0m
+DEBUG 2018-01-25 17:08:23,971 [36m----------------------------334870942518501647590519[0m
+DEBUG 2018-01-25 17:08:23,971 [36m[0m
+DEBUG 2018-01-25 17:08:23,972 [36mContent-Disposition: form-data; name="email"[0m
+DEBUG 2018-01-25 17:08:23,972 [36m[0m
+DEBUG 2018-01-25 17:08:23,972 [36mbrajaprasanna@gmail.com[0m
+DEBUG 2018-01-25 17:08:23,972 [36m----------------------------334870942518501647590519[0m
+DEBUG 2018-01-25 17:08:23,972 [36m[0m
+DEBUG 2018-01-25 17:08:23,973 [36mContent-Disposition: form-data; name="phone_no"[0m
+DEBUG 2018-01-25 17:08:23,973 [36m[0m
+DEBUG 2018-01-25 17:08:23,973 [36m8056712222[0m
+DEBUG 2018-01-25 17:08:23,973 [36m----------------------------334870942518501647590519[0m
+DEBUG 2018-01-25 17:08:23,973 [36m[0m
+DEBUG 2018-01-25 17:08:23,973 [36mContent-Disposition: form-data; name="skills"[0m
+DEBUG 2018-01-25 17:08:23,974 [36m[0m
+DEBUG 2018-01-25 17:08:23,974 [36mPython, Django[0m
+DEBUG 2018-01-25 17:08:23,974 [36m----------------------------334870942518501647590519[0m
+DEBUG 2018-01-25 17:08:23,974 [36m[0m
+DEBUG 2018-01-25 17:08:23,975 [36mContent-Disposition: form-data; name="resume"; filename="test_cv.rtf"[0m
+DEBUG 2018-01-25 17:08:23,975 [36mContent-Type: application/rtf[0m
+DEBUG 2018-01-25 17:08:23,975 [36m[0m
+DEBUG 2018-01-25 17:08:23,975 [36m(binary data)[0m
+DEBUG 2018-01-25 17:08:23,975 [36m----------------------------334870942518501647590519[0m
+DEBUG 2018-01-25 17:08:23,976 [36m--[0m
+DEBUG 2018-01-25 17:08:23,976 [36m[0m
+INFO 2018-01-25 17:08:23,998 [36mPOST /application/create - 201[0m
+DEBUG 2018-01-25 17:08:23,998 [36m{'vary': ('Vary', 'Accept'), 'content-type': ('Content-Type', 'application/json'), 'allow': ('Allow', 'POST, OPTIONS')}[0m
+DEBUG 2018-01-25 17:08:23,998 [36mb'{"status_message":"Success","dob":"1989-05-18","skills":"Python, Django","app_ref_no":"8CFC90","status_changed_by":null,"resume":"/media/test_cv.rtf","status":"Applied","status_changed_at":null,"phone_code":"+91","id":2,"email":"brajaprasanna@gmail.com","phone_no":"8056712222","name":"Raja Prasanna"}'[0m
+INFO 2018-01-25 17:08:40,348 [36mPOST /application/create[0m
+DEBUG 2018-01-25 17:08:40,349 [36m{'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_COOKIE': 'csrftoken=YrNrK4PRyCEMDOru71VQ5MUt83QCgNd3eafumP8dtVp2GHnIOnjbnVQHOEF90pAx', 'HTTP_USER_AGENT': 'PostmanRuntime/7.1.1', 'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_ACCEPT': '*/*', 'HTTP_CACHE_CONTROL': 'no-cache', 'HTTP_POSTMAN_TOKEN': '0d150339-28fc-4f62-8f26-da01e516d013'}[0m
+DEBUG 2018-01-25 17:08:40,350 [36m----------------------------307636956705828892790110[0m
+DEBUG 2018-01-25 17:08:40,350 [36m[0m
+DEBUG 2018-01-25 17:08:40,350 [36mContent-Disposition: form-data; name="name"[0m
+DEBUG 2018-01-25 17:08:40,350 [36m[0m
+DEBUG 2018-01-25 17:08:40,351 [36mRaja Prasanna[0m
+DEBUG 2018-01-25 17:08:40,351 [36m----------------------------307636956705828892790110[0m
+DEBUG 2018-01-25 17:08:40,351 [36m[0m
+DEBUG 2018-01-25 17:08:40,351 [36mContent-Disposition: form-data; name="dob"[0m
+DEBUG 2018-01-25 17:08:40,351 [36m[0m
+DEBUG 2018-01-25 17:08:40,351 [36m1989-05-18[0m
+DEBUG 2018-01-25 17:08:40,351 [36m----------------------------307636956705828892790110[0m
+DEBUG 2018-01-25 17:08:40,352 [36m[0m
+DEBUG 2018-01-25 17:08:40,352 [36mContent-Disposition: form-data; name="email"[0m
+DEBUG 2018-01-25 17:08:40,352 [36m[0m
+DEBUG 2018-01-25 17:08:40,352 [36mbrajaprasanna@gmail.com[0m
+DEBUG 2018-01-25 17:08:40,352 [36m----------------------------307636956705828892790110[0m
+DEBUG 2018-01-25 17:08:40,352 [36m[0m
+DEBUG 2018-01-25 17:08:40,352 [36mContent-Disposition: form-data; name="phone_no"[0m
+DEBUG 2018-01-25 17:08:40,352 [36m[0m
+DEBUG 2018-01-25 17:08:40,353 [36m8056712222[0m
+DEBUG 2018-01-25 17:08:40,353 [36m----------------------------307636956705828892790110[0m
+DEBUG 2018-01-25 17:08:40,353 [36m[0m
+DEBUG 2018-01-25 17:08:40,353 [36mContent-Disposition: form-data; name="skills"[0m
+DEBUG 2018-01-25 17:08:40,353 [36m[0m
+DEBUG 2018-01-25 17:08:40,353 [36mPython, Django[0m
+DEBUG 2018-01-25 17:08:40,353 [36m----------------------------307636956705828892790110[0m
+DEBUG 2018-01-25 17:08:40,353 [36m[0m
+DEBUG 2018-01-25 17:08:40,353 [36mContent-Disposition: form-data; name="resume"; filename="test_cv.rtf"[0m
+DEBUG 2018-01-25 17:08:40,353 [36mContent-Type: application/rtf[0m
+DEBUG 2018-01-25 17:08:40,354 [36m[0m
+DEBUG 2018-01-25 17:08:40,354 [36m(binary data)[0m
+DEBUG 2018-01-25 17:08:40,354 [36m----------------------------307636956705828892790110[0m
+DEBUG 2018-01-25 17:08:40,354 [36m--[0m
+DEBUG 2018-01-25 17:08:40,354 [36m[0m
+INFO 2018-01-25 17:08:40,367 [36mPOST /application/create - 201[0m
+DEBUG 2018-01-25 17:08:40,368 [36m{'vary': ('Vary', 'Accept'), 'content-type': ('Content-Type', 'application/json'), 'allow': ('Allow', 'POST, OPTIONS')}[0m
+DEBUG 2018-01-25 17:08:40,368 [36mb'{"status_message":"Success","dob":"1989-05-18","skills":"Python, Django","app_ref_no":"788AA3","status_changed_by":null,"resume":"/media/test_cv_nLgy1yi.rtf","status":"Applied","status_changed_at":null,"phone_code":"+91","id":3,"email":"brajaprasanna@gmail.com","phone_no":"8056712222","name":"Raja Prasanna"}'[0m
+INFO 2018-01-25 17:09:00,543 [36mGET /admin/application/applications/add/[0m
+DEBUG 2018-01-25 17:09:00,545 [36m{'HTTP_REFERER': 'http://127.0.0.1:8000/admin/application/applications/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36', 'HTTP_CACHE_CONTROL': 'max-age=0', 'HTTP_ACCEPT_LANGUAGE': 'en-US,en;q=0.9,ta;q=0.8', 'HTTP_COOKIE': 'sessionid=cc1wzcf1k307pyyqvdrp7iick4wviu5e; csrftoken=Ghq3cToKF9wENEOjpJzUeDrqkst8eRXBkwRDfMTvFuTLt2EDAXeJD4tGIFWzrPcS'}[0m
+INFO 2018-01-25 17:09:00,643 [36mGET /admin/application/applications/add/ - 200[0m
+INFO 2018-01-25 17:09:00,671 [36mGET /admin/jsi18n/[0m
+DEBUG 2018-01-25 17:09:00,671 [36m{'HTTP_REFERER': 'http://127.0.0.1:8000/admin/application/applications/add/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36', 'HTTP_ACCEPT': '*/*', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_ACCEPT_LANGUAGE': 'en-US,en;q=0.9,ta;q=0.8', 'HTTP_COOKIE': 'sessionid=cc1wzcf1k307pyyqvdrp7iick4wviu5e; csrftoken=Ghq3cToKF9wENEOjpJzUeDrqkst8eRXBkwRDfMTvFuTLt2EDAXeJD4tGIFWzrPcS', 'HTTP_HOST': '127.0.0.1:8000'}[0m
+INFO 2018-01-25 17:09:00,698 [36mGET /admin/jsi18n/ - 200[0m
+INFO 2018-01-25 17:09:01,599 [36mGET /admin/application/applications/[0m
+DEBUG 2018-01-25 17:09:01,600 [36m{'HTTP_USER_AGENT': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'HTTP_REFERER': 'http://127.0.0.1:8000/admin/application/applications/add/', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_ACCEPT_LANGUAGE': 'en-US,en;q=0.9,ta;q=0.8', 'HTTP_COOKIE': 'sessionid=cc1wzcf1k307pyyqvdrp7iick4wviu5e; csrftoken=Ghq3cToKF9wENEOjpJzUeDrqkst8eRXBkwRDfMTvFuTLt2EDAXeJD4tGIFWzrPcS', 'HTTP_HOST': '127.0.0.1:8000'}[0m
+INFO 2018-01-25 17:09:01,664 [36mGET /admin/application/applications/ - 200[0m
+INFO 2018-01-25 17:09:01,683 [36mGET /admin/jsi18n/[0m
+DEBUG 2018-01-25 17:09:01,684 [36m{'HTTP_REFERER': 'http://127.0.0.1:8000/admin/application/applications/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36', 'HTTP_ACCEPT': '*/*', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_ACCEPT_LANGUAGE': 'en-US,en;q=0.9,ta;q=0.8', 'HTTP_COOKIE': 'sessionid=cc1wzcf1k307pyyqvdrp7iick4wviu5e; csrftoken=Ghq3cToKF9wENEOjpJzUeDrqkst8eRXBkwRDfMTvFuTLt2EDAXeJD4tGIFWzrPcS', 'HTTP_HOST': '127.0.0.1:8000'}[0m
+INFO 2018-01-25 17:09:01,692 [36mGET /admin/jsi18n/ - 200[0m
+INFO 2018-01-25 17:09:04,165 [36mGET /admin/application/applications/1/change/[0m
+DEBUG 2018-01-25 17:09:04,165 [36m{'HTTP_USER_AGENT': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'HTTP_REFERER': 'http://127.0.0.1:8000/admin/application/applications/', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_ACCEPT_LANGUAGE': 'en-US,en;q=0.9,ta;q=0.8', 'HTTP_COOKIE': 'sessionid=cc1wzcf1k307pyyqvdrp7iick4wviu5e; csrftoken=Ghq3cToKF9wENEOjpJzUeDrqkst8eRXBkwRDfMTvFuTLt2EDAXeJD4tGIFWzrPcS', 'HTTP_HOST': '127.0.0.1:8000'}[0m
+INFO 2018-01-25 17:09:04,238 [36mGET /admin/application/applications/1/change/ - 200[0m
+INFO 2018-01-25 17:09:04,254 [36mGET /admin/jsi18n/[0m
+DEBUG 2018-01-25 17:09:04,255 [36m{'HTTP_REFERER': 'http://127.0.0.1:8000/admin/application/applications/1/change/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36', 'HTTP_ACCEPT': '*/*', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_ACCEPT_LANGUAGE': 'en-US,en;q=0.9,ta;q=0.8', 'HTTP_COOKIE': 'sessionid=cc1wzcf1k307pyyqvdrp7iick4wviu5e; csrftoken=Ghq3cToKF9wENEOjpJzUeDrqkst8eRXBkwRDfMTvFuTLt2EDAXeJD4tGIFWzrPcS', 'HTTP_HOST': '127.0.0.1:8000'}[0m
+INFO 2018-01-25 17:09:04,262 [36mGET /admin/jsi18n/ - 200[0m
+INFO 2018-01-25 17:09:12,879 [36mPOST /admin/application/applications/1/change/[0m
+DEBUG 2018-01-25 17:09:12,880 [36m{'HTTP_REFERER': 'http://127.0.0.1:8000/admin/application/applications/1/change/', 'HTTP_ORIGIN': 'http://127.0.0.1:8000', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36', 'HTTP_CACHE_CONTROL': 'max-age=0', 'HTTP_ACCEPT_LANGUAGE': 'en-US,en;q=0.9,ta;q=0.8', 'HTTP_COOKIE': 'sessionid=cc1wzcf1k307pyyqvdrp7iick4wviu5e; csrftoken=Ghq3cToKF9wENEOjpJzUeDrqkst8eRXBkwRDfMTvFuTLt2EDAXeJD4tGIFWzrPcS'}[0m
+DEBUG 2018-01-25 17:09:12,880 [36m------WebKitFormBoundarygaeYjKnn2fs0nLro[0m
+DEBUG 2018-01-25 17:09:12,880 [36m[0m
+DEBUG 2018-01-25 17:09:12,880 [36mContent-Disposition: form-data; name="csrfmiddlewaretoken"[0m
+DEBUG 2018-01-25 17:09:12,880 [36m[0m
+DEBUG 2018-01-25 17:09:12,880 [36mKs1YiFbiWl9sp5gLJFGwrvYn3UnkLxpzoHsylyG3WGwz5t65UTllQW0Dr7QLYvEQ[0m
+DEBUG 2018-01-25 17:09:12,880 [36m------WebKitFormBoundarygaeYjKnn2fs0nLro[0m
+DEBUG 2018-01-25 17:09:12,881 [36m[0m
+DEBUG 2018-01-25 17:09:12,881 [36mContent-Disposition: form-data; name="created_by"[0m
+DEBUG 2018-01-25 17:09:12,881 [36m[0m
+DEBUG 2018-01-25 17:09:12,881 [36m[0m
+DEBUG 2018-01-25 17:09:12,881 [36m------WebKitFormBoundarygaeYjKnn2fs0nLro[0m
+DEBUG 2018-01-25 17:09:12,881 [36m[0m
+DEBUG 2018-01-25 17:09:12,881 [36mContent-Disposition: form-data; name="updated_by"[0m
+DEBUG 2018-01-25 17:09:12,881 [36m[0m
+DEBUG 2018-01-25 17:09:12,881 [36m[0m
+DEBUG 2018-01-25 17:09:12,882 [36m------WebKitFormBoundarygaeYjKnn2fs0nLro[0m
+DEBUG 2018-01-25 17:09:12,882 [36m[0m
+DEBUG 2018-01-25 17:09:12,882 [36mContent-Disposition: form-data; name="name"[0m
+DEBUG 2018-01-25 17:09:12,882 [36m[0m
+DEBUG 2018-01-25 17:09:12,882 [36mRaja Prasanna[0m
+DEBUG 2018-01-25 17:09:12,882 [36m------WebKitFormBoundarygaeYjKnn2fs0nLro[0m
+DEBUG 2018-01-25 17:09:12,882 [36m[0m
+DEBUG 2018-01-25 17:09:12,882 [36mContent-Disposition: form-data; name="app_ref_no"[0m
+DEBUG 2018-01-25 17:09:12,882 [36m[0m
+DEBUG 2018-01-25 17:09:12,882 [36mC1775E[0m
+DEBUG 2018-01-25 17:09:12,882 [36m------WebKitFormBoundarygaeYjKnn2fs0nLro[0m
+DEBUG 2018-01-25 17:09:12,882 [36m[0m
+DEBUG 2018-01-25 17:09:12,883 [36mContent-Disposition: form-data; name="dob"[0m
+DEBUG 2018-01-25 17:09:12,883 [36m[0m
+DEBUG 2018-01-25 17:09:12,883 [36m1989-05-18[0m
+DEBUG 2018-01-25 17:09:12,883 [36m------WebKitFormBoundarygaeYjKnn2fs0nLro[0m
+DEBUG 2018-01-25 17:09:12,883 [36m[0m
+DEBUG 2018-01-25 17:09:12,883 [36mContent-Disposition: form-data; name="email"[0m
+DEBUG 2018-01-25 17:09:12,883 [36m[0m
+DEBUG 2018-01-25 17:09:12,883 [36mbrajaprasanna@gmail.com[0m
+DEBUG 2018-01-25 17:09:12,883 [36m------WebKitFormBoundarygaeYjKnn2fs0nLro[0m
+DEBUG 2018-01-25 17:09:12,883 [36m[0m
+DEBUG 2018-01-25 17:09:12,883 [36mContent-Disposition: form-data; name="phone_no"[0m
+DEBUG 2018-01-25 17:09:12,883 [36m[0m
+DEBUG 2018-01-25 17:09:12,883 [36m8056712222[0m
+DEBUG 2018-01-25 17:09:12,883 [36m------WebKitFormBoundarygaeYjKnn2fs0nLro[0m
+DEBUG 2018-01-25 17:09:12,883 [36m[0m
+DEBUG 2018-01-25 17:09:12,883 [36mContent-Disposition: form-data; name="phone_code"[0m
+DEBUG 2018-01-25 17:09:12,883 [36m[0m
+DEBUG 2018-01-25 17:09:12,884 [36m+91[0m
+DEBUG 2018-01-25 17:09:12,884 [36m------WebKitFormBoundarygaeYjKnn2fs0nLro[0m
+DEBUG 2018-01-25 17:09:12,884 [36m[0m
+DEBUG 2018-01-25 17:09:12,884 [36mContent-Disposition: form-data; name="resume"; filename="test_cv.rtf"[0m
+DEBUG 2018-01-25 17:09:12,884 [36mContent-Type: text/rtf[0m
+DEBUG 2018-01-25 17:09:12,884 [36m[0m
+DEBUG 2018-01-25 17:09:12,884 [36m{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf200[0m
+DEBUG 2018-01-25 17:09:12,884 [36m{\fonttbl\f0\fswiss\fcharset0 Helvetica;}[0m
+DEBUG 2018-01-25 17:09:12,884 [36m{\colortbl;\red255\green255\blue255;}[0m
+DEBUG 2018-01-25 17:09:12,884 [36m{\*\expandedcolortbl;;}[0m
+DEBUG 2018-01-25 17:09:12,884 [36m\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0[0m
+DEBUG 2018-01-25 17:09:12,884 [36m\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0[0m
+DEBUG 2018-01-25 17:09:12,884 [36m[0m
+DEBUG 2018-01-25 17:09:12,884 [36m\f0\fs24 \cf0 Test doc}[0m
+DEBUG 2018-01-25 17:09:12,884 [36m------WebKitFormBoundarygaeYjKnn2fs0nLro[0m
+DEBUG 2018-01-25 17:09:12,884 [36m[0m
+DEBUG 2018-01-25 17:09:12,884 [36mContent-Disposition: form-data; name="skills"[0m
+DEBUG 2018-01-25 17:09:12,885 [36m[0m
+DEBUG 2018-01-25 17:09:12,885 [36mPython, Django[0m
+DEBUG 2018-01-25 17:09:12,885 [36m------WebKitFormBoundarygaeYjKnn2fs0nLro[0m
+DEBUG 2018-01-25 17:09:12,885 [36m[0m
+DEBUG 2018-01-25 17:09:12,885 [36mContent-Disposition: form-data; name="status"[0m
+DEBUG 2018-01-25 17:09:12,885 [36m[0m
+DEBUG 2018-01-25 17:09:12,885 [36mApplied[0m
+DEBUG 2018-01-25 17:09:12,885 [36m------WebKitFormBoundarygaeYjKnn2fs0nLro[0m
+DEBUG 2018-01-25 17:09:12,885 [36m[0m
+DEBUG 2018-01-25 17:09:12,885 [36mContent-Disposition: form-data; name="status_changed_by"[0m
+DEBUG 2018-01-25 17:09:12,885 [36m[0m
+DEBUG 2018-01-25 17:09:12,885 [36m[0m
+DEBUG 2018-01-25 17:09:12,885 [36m------WebKitFormBoundarygaeYjKnn2fs0nLro[0m
+DEBUG 2018-01-25 17:09:12,885 [36m[0m
+DEBUG 2018-01-25 17:09:12,885 [36mContent-Disposition: form-data; name="status_changed_at_0"[0m
+DEBUG 2018-01-25 17:09:12,885 [36m[0m
+DEBUG 2018-01-25 17:09:12,885 [36m[0m
+DEBUG 2018-01-25 17:09:12,886 [36m------WebKitFormBoundarygaeYjKnn2fs0nLro[0m
+DEBUG 2018-01-25 17:09:12,886 [36m[0m
+DEBUG 2018-01-25 17:09:12,886 [36mContent-Disposition: form-data; name="status_changed_at_1"[0m
+DEBUG 2018-01-25 17:09:12,886 [36m[0m
+DEBUG 2018-01-25 17:09:12,886 [36m[0m
+DEBUG 2018-01-25 17:09:12,886 [36m------WebKitFormBoundarygaeYjKnn2fs0nLro[0m
+DEBUG 2018-01-25 17:09:12,886 [36m[0m
+DEBUG 2018-01-25 17:09:12,886 [36mContent-Disposition: form-data; name="_save"[0m
+DEBUG 2018-01-25 17:09:12,886 [36m[0m
+DEBUG 2018-01-25 17:09:12,886 [36mSave[0m
+DEBUG 2018-01-25 17:09:12,886 [36m------WebKitFormBoundarygaeYjKnn2fs0nLro[0m
+DEBUG 2018-01-25 17:09:12,886 [36m--[0m
+DEBUG 2018-01-25 17:09:12,886 [36m[0m
+INFO 2018-01-25 17:09:12,904 [36mPOST /admin/application/applications/1/change/ - 302[0m
+INFO 2018-01-25 17:09:12,908 [36mGET /admin/application/applications/[0m
+DEBUG 2018-01-25 17:09:12,908 [36m{'HTTP_REFERER': 'http://127.0.0.1:8000/admin/application/applications/1/change/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_UPGRADE_INSECURE_REQUESTS': '1', 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36', 'HTTP_CACHE_CONTROL': 'max-age=0', 'HTTP_ACCEPT_LANGUAGE': 'en-US,en;q=0.9,ta;q=0.8', 'HTTP_COOKIE': 'sessionid=cc1wzcf1k307pyyqvdrp7iick4wviu5e; csrftoken=Ghq3cToKF9wENEOjpJzUeDrqkst8eRXBkwRDfMTvFuTLt2EDAXeJD4tGIFWzrPcS; messages="2c87a343d43df22561b245cb86fcd445a91d8b2c$[[\\"__json_message\\"\\0541\\05425\\054\\"The Application \\\\\\"<a href=\\\\\\"/admin/application/applications/1/change/\\\\\\">Raja Prasanna - Applied</a>\\\\\\" was changed successfully.\\"]]"'}[0m
+INFO 2018-01-25 17:09:12,967 [36mGET /admin/application/applications/ - 200[0m
+INFO 2018-01-25 17:09:12,987 [36mGET /admin/jsi18n/[0m
+DEBUG 2018-01-25 17:09:12,988 [36m{'HTTP_REFERER': 'http://127.0.0.1:8000/admin/application/applications/', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, br', 'HTTP_USER_AGENT': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36', 'HTTP_ACCEPT': '*/*', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_ACCEPT_LANGUAGE': 'en-US,en;q=0.9,ta;q=0.8', 'HTTP_COOKIE': 'sessionid=cc1wzcf1k307pyyqvdrp7iick4wviu5e; csrftoken=Ghq3cToKF9wENEOjpJzUeDrqkst8eRXBkwRDfMTvFuTLt2EDAXeJD4tGIFWzrPcS', 'HTTP_HOST': '127.0.0.1:8000'}[0m
+INFO 2018-01-25 17:09:12,994 [36mGET /admin/jsi18n/ - 200[0m
+INFO 2018-01-25 17:10:41,476 [36mGET /application/list[0m
+DEBUG 2018-01-25 17:10:41,478 [36m{'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_COOKIE': 'csrftoken=YrNrK4PRyCEMDOru71VQ5MUt83QCgNd3eafumP8dtVp2GHnIOnjbnVQHOEF90pAx', 'HTTP_USER_AGENT': 'PostmanRuntime/7.1.1', 'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_ACCEPT': '*/*', 'HTTP_CACHE_CONTROL': 'no-cache', 'HTTP_POSTMAN_TOKEN': 'd9756dc8-55d5-4223-b1c2-933906188a4d'}[0m
+INFO 2018-01-25 17:10:41,479 [35mGET /application/list - 401[0m
+ERROR 2018-01-25 17:10:41,479 [35m{'vary': ('Vary', 'Accept'), 'content-type': ('Content-Type', 'application/json'), 'www-authenticate': ('WWW-Authenticate', 'Token'), 'allow': ('Allow', 'GET, HEAD, OPTIONS')}[0m
+ERROR 2018-01-25 17:10:41,479 [35mb'{"detail":"Authentication credentials were not provided."}'[0m
+INFO 2018-01-25 17:12:25,635 [36mGET /application/list[0m
+DEBUG 2018-01-25 17:12:25,637 [36m{'HTTP_AUTHORIZATION': 'Token qwerty', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_COOKIE': 'csrftoken=YrNrK4PRyCEMDOru71VQ5MUt83QCgNd3eafumP8dtVp2GHnIOnjbnVQHOEF90pAx', 'HTTP_USER_AGENT': 'PostmanRuntime/7.1.1', 'HTTP_HOST': '127.0.0.1:8000', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_ACCEPT': '*/*', 'HTTP_CACHE_CONTROL': 'no-cache', 'HTTP_POSTMAN_TOKEN': '558e6720-13f1-4668-9564-985418d85872'}[0m
+ERROR 2018-01-25 17:12:25,642 Internal Server Error: /application/list
+Traceback (most recent call last):
+  File "/Users/mervin/Project/rec/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/mervin/Project/rec/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/mervin/Project/rec/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/mervin/Project/rec/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/mervin/Project/rec/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/mervin/Project/rec/lib/python3.5/site-packages/rest_framework/views.py", line 494, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/mervin/Project/rec/lib/python3.5/site-packages/rest_framework/views.py", line 454, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/mervin/Project/rec/lib/python3.5/site-packages/rest_framework/views.py", line 491, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/mervin/Project/rec/lib/python3.5/site-packages/rest_framework/generics.py", line 201, in get
+    return self.list(request, *args, **kwargs)
+  File "/Users/mervin/Project/rec/lib/python3.5/site-packages/rest_framework/mixins.py", line 40, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "/Users/mervin/Project/recruitment/application/api.py", line 46, in get_queryset
+    return self.queryset.filter(is_approved__isnull=True)
+  File "/Users/mervin/Project/rec/lib/python3.5/site-packages/django/db/models/query.py", line 781, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/Users/mervin/Project/rec/lib/python3.5/site-packages/django/db/models/query.py", line 799, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/Users/mervin/Project/rec/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1260, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/mervin/Project/rec/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1286, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "/Users/mervin/Project/rec/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1164, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/Users/mervin/Project/rec/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1044, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/Users/mervin/Project/rec/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1362, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'is_approved' into field. Choices are: app_ref_no, created_by, created_on, dob, email, id, name, phone_code, phone_no, resume, skills, status, status_changed_at, status_changed_by, updated_by, updated_on
+INFO 2018-01-25 17:12:25,672 [35mGET /application/list - 500[0m
+INFO 2018-01-25 17:13:59,846 [36mGET /application/list[0m
+DEBUG 2018-01-25 17:13:59,847 [36m{'HTTP_CACHE_CONTROL': 'no-cache', 'HTTP_ACCEPT': '*/*', 'HTTP_HOST': '127.0.0.1:8000', 'HTTP_USER_AGENT': 'PostmanRuntime/7.1.1', 'HTTP_CONNECTION': 'keep-alive', 'HTTP_ACCEPT_ENCODING': 'gzip, deflate', 'HTTP_POSTMAN_TOKEN': '6153dc0f-634c-49ac-8583-08dc849524fc', 'HTTP_AUTHORIZATION': 'Token qwerty', 'HTTP_COOKIE': 'csrftoken=YrNrK4PRyCEMDOru71VQ5MUt83QCgNd3eafumP8dtVp2GHnIOnjbnVQHOEF90pAx'}[0m
+INFO 2018-01-25 17:13:59,862 [36mGET /application/list - 200[0m
+DEBUG 2018-01-25 17:13:59,862 [36m{'allow': ('Allow', 'GET, HEAD, OPTIONS'), 'vary': ('Vary', 'Accept'), 'content-type': ('Content-Type', 'application/json')}[0m
+DEBUG 2018-01-25 17:13:59,863 [36mb'{"count":3,"next":null,"previous":null,"results":[{"id":1,"name":"Raja Prasanna","app_ref_no":"C1775E","dob":"1989-05-18","email":"brajaprasanna@gmail.com","phone_no":"8056712222","phone_code":"+91","resume":"http://127.0.0.1:8000/media/test_cv_qLSqBDh.rtf","skills":"Python, Django","status":"Applied","status_changed_by":null,"status_changed_at":null},{"id":2,"name":"Raja Prasanna","app_ref_no":"8CFC90","dob":"1989-05-18","email":"brajaprasanna@gmail.com","phone_no":"8056712222","phone_code":"+91","resume":"http://127.0.0.1:8000/media/test_cv.rtf","skills":"Python, Django","status":"Applied","status_changed_by":null,"status_changed_at":null},{"id":3,"name":"Raja Prasanna","app_ref_no":"788AA3","dob":"1989-05-18","email":"brajaprasanna@gmail.com","phone_no":"8056712222","phone_code":"+91","resume":"http://127.0.0.1:8000/media/test_cv_nLgy1yi.rtf","skills":"Python, Django","status":"Applied","status_changed_by":null,"status_changed_at":null}]}'[0m

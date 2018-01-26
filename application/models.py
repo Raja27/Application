@@ -33,3 +33,7 @@ class Applications(Base):
         if not self.pk:
             self.app_ref_no = uuid.uuid4().hex[:6].upper()
         return super().save(*args, **kwargs)
+
+    def cust_order_by(self):
+        state = {'Applied': 0, 'Accepted': 1, 'Rejected': 2}
+        return state.get(self.status)

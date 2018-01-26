@@ -1,0 +1,67 @@
+{% extends 'application/base.html' %}
+{% load humanize %}
+{% block content %}
+<div ng-controller="appController" >
+    <div class="table-responsive" ng-init="getList()">
+
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col">Reference ID</th>
+              <th scope="col">Status</th>
+              <th scope="col">Applied</th>
+              <th scope="col">Status Change</th>
+            </tr>
+          </thead>
+          <tbody>
+
+            <tr style="cursor:pointer;" ng-repeat="obj in data.results" ng-click="detailView(obj.id)">
+              <td>{[{obj.name}]}</td>
+              <td>{[{obj.app_ref_no}]}</td>
+              <td>{[{obj.status}]}</td>
+              <td>{[{obj.created_on}]}</td>
+              <td>{[{obj.status_changed_at}]}</td>
+            </tr>
+
+          </tbody>
+        </table>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">Result: {[{ data.count }]}</div>
+        <div class="col-md-4 offset-md-4">
+            <hr>
+            <nav>
+                <ul class="pagination">
+                    <li>
+                        <button ng-if="data.previous" ng-click="getList(data.previous, sort_filter)">
+                            <span aria-hidden="true">Previous</span>
+                        </button>
+                        <button ng-if="!data.previous" disabled>
+                            <span aria-hidden="true">Previous</span>
+                        </button>
+                    </li>
+                    <li>
+                        <button ng-if="data.next" ng-click="getList(data.next, sort_filter)">
+                            <span aria-hidden="true">Next</span>
+                        </button>
+                        <button ng-if="!data.next" disabled>
+                            <span aria-hidden="true">Next</span>
+                        </button>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block js%}
+<script>
+
+</script>
+{% endblock %}
+

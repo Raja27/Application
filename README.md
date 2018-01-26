@@ -21,11 +21,11 @@ URL: 127.0.0.1:8000
 3. Bootstrap 3.3
 
 **Todo**
-*
+
 1. Automatically Send email with application no to applicant
 2. Update same to admin via email
 3. Login for applicant too.
-*
+
 
 
 

@@ -2,138 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e77ef019-06fa-4f21-aa66-75a40821238b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_pro/css/custom.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_pro/css/theme.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_pro/js/angular-animate.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_pro/js/angular-aria.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_pro/js/angular-messages.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_pro/js/angular-route.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_pro/js/angular.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_pro/js/app.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_pro/js/controller.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static_pro/js/sweetalert.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/application/application.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/application/application_detail.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/application/base.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/application/login.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/api.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/serializers.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/user/urls.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/recruitment.iml" afterPath="$PROJECT_DIR$/.idea/recruitment.iml" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/application/api.py" afterPath="$PROJECT_DIR$/application/api.py" />
-      <change beforePath="$PROJECT_DIR$/application/models.py" afterPath="$PROJECT_DIR$/application/models.py" />
-      <change beforePath="$PROJECT_DIR$/application/serializers.py" afterPath="$PROJECT_DIR$/application/serializers.py" />
-      <change beforePath="$PROJECT_DIR$/application/urls.py" afterPath="$PROJECT_DIR$/application/urls.py" />
-      <change beforePath="$PROJECT_DIR$/application/views.py" afterPath="$PROJECT_DIR$/application/views.py" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change beforePath="$PROJECT_DIR$/logs/debug.logs" afterPath="$PROJECT_DIR$/logs/debug.logs" />
-      <change beforePath="$PROJECT_DIR$/recruitment/settings.py" afterPath="$PROJECT_DIR$/recruitment/settings.py" />
-      <change beforePath="$PROJECT_DIR$/recruitment/urls.py" afterPath="$PROJECT_DIR$/recruitment/urls.py" />
-      <change beforePath="$PROJECT_DIR$/static/admin/css/base.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/css/changelists.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/css/dashboard.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/css/fonts.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/css/forms.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/css/login.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/css/rtl.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/css/widgets.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/fonts/LICENSE.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/fonts/README.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/fonts/Roboto-Bold-webfont.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/fonts/Roboto-Light-webfont.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/fonts/Roboto-Regular-webfont.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/README.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/calendar-icons.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_off.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_on.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-addlink.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-alert.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-calendar.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-changelink.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-clock.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-deletelink.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-no.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-unknown-alt.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-unknown.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-yes.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/inline-delete.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/search.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/selector-icons.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/sorting-icons.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/tooltag-add.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/tooltag-arrowright.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/SelectBox.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/SelectFilter2.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/actions.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/actions.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/admin/DateTimeShortcuts.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/admin/RelatedObjectLookups.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/calendar.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/cancel.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/change_form.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/collapse.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/collapse.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/core.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/inlines.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/inlines.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/jquery.init.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/popup_response.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/prepopulate.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/prepopulate.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/prepopulate_init.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/timeparse.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/urlify.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/jquery/LICENSE-JQUERY.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/css/bootstrap-tweaks.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/static_pro/css/bootstrap.min.css" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/css/default.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/css/prettify.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/css/base.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/css/bootstrap-theme.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/css/bootstrap.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/css/font-awesome-4.0.3.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/css/highlight.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/css/jquery.json-view.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/img/favicon.ico" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/img/grid.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/js/api.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/js/bootstrap.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/js/highlight.pack.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/js/jquery-1.10.2.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/docs/js/jquery.json-view.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/img/glyphicons-halflings-white.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/img/glyphicons-halflings.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/img/grid.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/js/ajax-form.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/js/bootstrap.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/js/coreapi-0.1.1.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/js/csrf.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/js/default.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/js/jquery-1.12.4.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/rest_framework/js/prettify-min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/user/views.py" afterPath="$PROJECT_DIR$/user/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -196,7 +66,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="application.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/application/application.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="67">
@@ -207,6 +77,16 @@
                 <element signature="n#style#0;n#input#0;n#div#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#1;n#div#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="638">
+              <caret line="154" column="1" lean-forward="false" selection-start-line="154" selection-start-column="1" selection-end-line="154" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -237,18 +117,6 @@
             <state relative-caret-position="120">
               <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="14" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -298,7 +166,6 @@
         <option value="$PROJECT_DIR$/user/api.py" />
         <option value="$PROJECT_DIR$/user/urls.py" />
         <option value="$PROJECT_DIR$/static_pro/css/angular-material.min.css" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/application/serializers.py" />
         <option value="$PROJECT_DIR$/templates/application/application_list.html" />
         <option value="$PROJECT_DIR$/static_pro/js/sweetalert.min.js" />
@@ -313,6 +180,7 @@
         <option value="$PROJECT_DIR$/static/js/controller.js" />
         <option value="$PROJECT_DIR$/static_pro/js/controller.js" />
         <option value="$PROJECT_DIR$/templates/application/application.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -796,14 +664,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="154" column="6" lean-forward="false" selection-start-line="154" selection-start-column="6" selection-end-line="154" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../rec/lib/python3.5/site-packages/django/db/models/fields/files.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
@@ -952,6 +812,14 @@
             <element signature="n#style#0;n#input#0;n#div#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#1;n#div#0;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="154" column="1" lean-forward="false" selection-start-line="154" selection-start-column="1" selection-end-line="154" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -152,5 +152,5 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 
-static
+/static
 /__pycache__/

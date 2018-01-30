@@ -39,11 +39,8 @@ class ApplicationCreate(APIView):
             logger.error(repr(e))
         response.update({'status_message': status_message})
         return redirect('/#{}'.format(app_no), {'app_no': app_no})
-        # return Response(response, code)
-        # return render(request, 'application/application.html', {'app_no': serializer.data.get('app_ref_no')})
-        # return TemplateResponse(request, 'application/application.html', {'app_no': serializer.data.get('app_ref_no')})
-
-
+        
+        
 class ApplicationEdit(APIView):
 
     permission_classes = (IsAdminUser,)
